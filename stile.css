@@ -1,17 +1,19 @@
-
-  header{
+header {
     padding: 2%;
     background-color: #CA9A1C;
   }
+
   section.prima { 
       display: flex;
       justify-content: space-between;
       align-items: center;
   }
+
   @media (max-width:600px) {
       header {
           column-count: 1;
       } }
+
   nav ul {
       list-style: none;
       margin: 0;
@@ -20,26 +22,30 @@
       justify-content: flex-end;
       gap: 10px;
   }
+
   a nav{
       max-width: 100%;
       font-family: Arial, Helvetica, sans-serif;
       font: size 40px;
   }
+
   h1{
       max-width: 100%;
-      font-family:Arial, Helvetica, sans-serif;
+      font-family:Arial, Helvetica, sans-serif;;
       color: black;
       font-size: 50px;
       line-height: 1;
   }
+
   h2{
       max-width: 100%;
-      font-family:Arial, Helvetica, sans-serif;
+      font-family:Arial, Helvetica, sans-serif;;
       color: black;
       font-size: 40px;
       line-height: 1;
       text-align: center;
   }
+
   section.illustrators{
       column-count: 3;
       column-gap: 30px;
@@ -52,6 +58,7 @@
       margin-bottom: 30px;
       justify-content:center;
   }
+
   section.illustrators h4 {
       text-align: baseline;
   }
@@ -60,11 +67,13 @@
       section.illustrators {
           column-count: 1;
       } }
+
   section.illustrators h3 {
       max-width: 100%;
       font-family: sans-serif;
       color: black;
   } 
+
   footer {
    text-align: center;
   padding: 2%;}
@@ -75,106 +84,140 @@
       text-align: center;
       justify-content:center;
   }
+
   section.footer img {
       margin-bottom: 50px;
       width: 5%;
   }
+
   @media (max-width:600px) {
       section.footer {
           column-count: 1;
       } }
+
   section.footer div {
       display: flex;
       justify-content:center;
       align-items:last baseline;
   }
-footer{
-    background-color: #CA9A1C;
-    margin: ;
-}
+
+  footer{
+      background-color: #CA9A1C;
+      margin: ;
+  }
+
   p footer{font-size: 20px;
   text-align: center;
   flex-direction: column;
   padding: 10%;
   }
+
   a{
       font-family: sans-serif;
       color: black;
       padding: 30px
   }
-  
+
   section.info{
       column-count: 1;
-      column: 60px;
+      column-gap: 60px;
       align-items: center;
       justify-content: center;
       margin: 5%;
   }
-    .agenzia{
-    text-align: center;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
   div.contatti{
       background-color:#CA9A1C;
       padding:2%
   }
-  #nomeagenzia{
-    text-align: center;
-  }
+  
   h3 {
       font-size: 25px;
       font-family: Arial, Helvetica, sans-serif;
   }
+
   h4 {
       font-size: 15px;
       font-family: Arial, Helvetica, sans-serif;
   }
-  section.bioillustratore {
-    column-count: 3;
-    column-gap: 40px;
-    justify-content:center;
-    text-align: center;
-    margin: 5%;
+
+  div.agenzia p {
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
   }
-  .immagini{
+
+  section.bioillustratore{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-left: 0;
-    margin-right: 0%;
-  }
-  #immaginipag2{
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .immaginia3{
-    display: flex;
-    align-items: center;
-    padding: 6%;
-  }
+     }
+
   @media (max-width:600px) {
       section.bioillutratore {
           column-count: 1;
       } }
-    .bio{
-      text-align: left;
-      display: flex;
-      flex-direction: column;
+
+      #immaginipag2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        display: block;
+        max-width: 100%;
+        order: 2;
+        margin-right: 3%;
+        margin: 1%;
       }
+
+      .immagini{
+        display: block;
+        max-width: 100%;
+        order: 2;
+        margin-right: 3%; 
+        padding: 1%;  
+      }
+
+      .immaginia2{
+        display: flex;
+        order: 2;
+        margin-right: 3%;
+        padding: 1%;
+      }
+
+      .hero2{
+        display: flex;
+        justify-content: center;
+        padding: 6%;
+      }
+
+      .hero3{
+        display: flex;
+        align-items: center;
+        padding: 6%;
+      }
+
+      .hero4{
+        display: flex;
+        align-items: center;
+        padding: 6%;
+      }
+
+  .biotesto{
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
   p {
       font-size: 16px;
-      font-family: Arial, Helvetica, sans-serif;
-      clear: both;
-      text-align: left;
-      align-items: justify;
-      text-justify: distribute;
-    }
-    #infoluogoagenzia{
-      font-size: 16px;
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: center;
-    }
+      font-family: Arial, Helvetica, sans-serif;   
+  }
+
+  #nomeagenzia{
+    text-align: center;
+  }
+  
+  #infoluogoagenzia{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
